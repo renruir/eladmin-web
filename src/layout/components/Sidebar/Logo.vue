@@ -25,7 +25,7 @@ export default {
   },
   data() {
     return {
-      title: 'ELADMIN-后台管理',
+      title: '地铁巡检管理平台',
       logo: Logo
     }
   }
