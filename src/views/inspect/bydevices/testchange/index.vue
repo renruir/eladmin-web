@@ -149,6 +149,7 @@
         <el-table-column prop="abError" label="AB相误差" />
         <el-table-column prop="abAngle" label="AB相角度" />
         <el-table-column prop="inspectTime" label="检测时间" />
+        <el-table-column prop="saveTime" label="上传时间" />
         <el-table-column prop="other1" label="备注" />
         <el-table-column
           v-if="checkPer(['admin', 'testChange:edit', 'testChange:del'])"

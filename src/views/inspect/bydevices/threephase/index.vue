@@ -245,6 +245,7 @@
         <el-table-column prop="cF" label="cF" />
         <el-table-column prop="cUl" label="cUl" />
         <el-table-column prop="inspectTime" label="检测时间" />
+        <el-table-column prop="saveTime" label="上传时间" />
         <el-table-column prop="other1" label="备注" />
         <el-table-column
           v-if="checkPer(['admin', 'threePhase:edit', 'threePhase:del'])"
